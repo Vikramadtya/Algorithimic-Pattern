@@ -1,2 +1,2 @@
-# Monotonic Stack
+# Stack
 

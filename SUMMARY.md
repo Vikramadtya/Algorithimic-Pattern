@@ -2,7 +2,8 @@
 
 ## Stack
 
-* [Monotonic Stack](README.md)
+* [Stack](README.md)
+* [Monotonic Stack](<README (1).md>)
 
 ## Miscellaneous&#x20;
 
