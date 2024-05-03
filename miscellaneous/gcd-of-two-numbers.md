@@ -4,7 +4,7 @@ The Greatest Common Divisor (GCD), or Highest Common Factor (HCF), is the larges
 
 
 
-A naive approach to this is to iterate from all numbers between 1 to $\text{min}(m,n)$ and return the biggest number that divides them
+A naive approach to this is to iterate from all numbers between 1 to $$\text{min}(m,n)$$ and return the biggest number that divides them
 
 ```java
 int gcd(int m, int n) {
