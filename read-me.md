@@ -7,5 +7,3 @@ The question solved are tracked [here](https://vickysingh.notion.site/LeetCode-Q
 {% hint style="success" %}
 Do checkout my [portfolio](https://www.vikramaditya-singh.in/) & [blog](https://www.neuralcook.com/)
 {% endhint %}
-
-&#x20;

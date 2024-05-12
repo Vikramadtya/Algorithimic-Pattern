@@ -23,7 +23,11 @@
 * [Directed Graph](graph/directed-graph.md)
 * [Cycle detection](graph/cycle-detection.md)
 
+## Java
+
+* [Java Snippets](java/java-snippets.md)
+* [Data Structures](java/data-structures.md)
+
 ***
 
 * [Read Me](read-me.md)
-* [Common Java Snippets](common-java-snippets.md)
