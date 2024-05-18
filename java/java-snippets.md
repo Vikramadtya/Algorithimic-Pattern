@@ -39,7 +39,7 @@ Arrays.sort(arr,fromIndex,toIndex);
 If its a multi-dimensional array&#x20;
 
 ```java
-Arrays.sort(points, (a, b) -> Integer.compare(a[column],b[column]));
+Arrays.sort(arr, (a, b) -> Integer.compare(a[column],b[column]));
 ```
 
 ### List
