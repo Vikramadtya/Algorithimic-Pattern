@@ -36,6 +36,12 @@ Arrays.sort(arr,fromIndex,toIndex);
 
 > Read more about the array operation [here](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
 
+If its a multi-dimensional array&#x20;
+
+```java
+Arrays.sort(points, (a, b) -> Integer.compare(a[column],b[column]));
+```
+
 ### List
 
 To sort a list use&#x20;
