@@ -14,6 +14,7 @@
 * [Centre of gravity](tree/centre-of-gravity.md)
 * [Shortest Path](tree/shortest-path.md)
 * [Diameter of Tree](tree/diameter-of-tree.md)
+* [Binary Tree Traversal](tree/binary-tree-traversal.md)
 
 ## Graph
 
