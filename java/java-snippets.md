@@ -92,3 +92,20 @@ string.toUpperCase();
 
 
 
+## Splice
+
+### Array
+
+To create the sub-array&#x20;
+
+* _startInclusive_ – the start index to extract from the array  inclusive
+* _endExclusive_ – the end index to extract exclusive
+
+```java
+String[] result = Arrays.stream(<array>, <startInclusiveIndex>, <endExclusiveIndex>).toArray(String[]::new);
+```
+
+
+
+
+
