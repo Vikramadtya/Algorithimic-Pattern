@@ -1,10 +1,12 @@
-# Directed Graph
+# Graph
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Directed Acyclic Graph
 
 * It is simply a directed graph which contains no cycles - it is impossible to start at one vertex, move along a sequence of arcs and end up in the same vertex
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="343"><figcaption><p>Directed Acyclic Graph</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="343"><figcaption><p>Directed Acyclic Graph</p></figcaption></figure>
 
 * Every DAG has at least one Topological Ordering.
 

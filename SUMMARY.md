@@ -19,10 +19,13 @@
 ## Graph
 
 * [Topological Sort](graph/topological-sort.md)
-* [Depth First Search](graph/depth-first-search.md)
-* [Breadth First Search](graph/breadth-first-search.md)
-* [Directed Graph](graph/directed-graph.md)
+* [Tree Traversal](graph/tree-traversal.md)
+* [Graph](graph/graph.md)
 * [Cycle detection](graph/cycle-detection.md)
+
+## Linked List
+
+* [Cycle Detection](linked-list/cycle-detection.md)
 
 ## Java
 
