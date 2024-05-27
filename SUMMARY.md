@@ -8,6 +8,7 @@
 ## Miscellaneous&#x20;
 
 * [GCD of two numbers](miscellaneous/gcd-of-two-numbers.md)
+* [Finding the majority element](miscellaneous/finding-the-majority-element.md)
 
 ## Tree
 
