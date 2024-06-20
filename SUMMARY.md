@@ -9,6 +9,7 @@
 
 * [GCD of two numbers](miscellaneous/gcd-of-two-numbers.md)
 * [Finding the majority element](miscellaneous/finding-the-majority-element.md)
+* [Rotate array by K steps](miscellaneous/rotate-array-by-k-steps.md)
 
 ## Tree
 

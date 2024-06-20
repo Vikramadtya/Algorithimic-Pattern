@@ -16,10 +16,11 @@ If there is no majority, the algorithm will not recognise this and will continue
 
 First pass identifies an element as a majority
 
-<pre class="language-java"><code class="lang-java"><strong>// we count the votes 
-</strong>// number of votes will be > 0 only for the majority element
+```java
+// we count the votes 
+// number of votes will be > 0 only for the majority element
 int candidate = -1, votes = 0; 
-for (int i = 0; i &#x3C; nums.length; ++i) { 
+for (int i = 0; i < nums.length; ++i) { 
 	// if votes is 0 then replace the candiate
 	if(votes == 0) { 
 		candidate = nums[i];
@@ -28,7 +29,7 @@ for (int i = 0; i &#x3C; nums.length; ++i) {
 	// if the element is different consider it as vote againts 	
 	votes+= (candidate == nums[i]) ? +1 : -1;
 } 
-</code></pre>
+```
 
 Second pass confirms that the element identified in the first pass is indeed a majority
 
