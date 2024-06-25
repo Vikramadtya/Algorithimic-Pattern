@@ -54,6 +54,26 @@ Collections.sort(list);
 
 
 
+#### Arrays
+
+Searches a range of the specified array for the specified value
+
+```java
+public static T binarySearch(T[] a,int fromIndex,int toIndex,T key)
+```
+
+* index of the search key, if it is contained in the array within the specified range.&#x20;
+* Otherwise, $$-(insertion point) - 1$$&#x20;
+  * the _insertion point_ is defined as the point at which the key would be inserted into the array
+
+#### List
+
+If its&#x20;
+
+
+
+
+
 ## String Operations
 
 ### Split String
