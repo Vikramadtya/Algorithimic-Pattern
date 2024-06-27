@@ -34,6 +34,10 @@
 * [Java Snippets](java/java-snippets.md)
 * [Data Structures](java/data-structures.md)
 
+## Heap
+
+* [Heap](heap/heap.md)
+
 ***
 
 * [Read Me](read-me.md)
