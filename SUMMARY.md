@@ -11,6 +11,10 @@
 * [Finding the majority element](miscellaneous/finding-the-majority-element.md)
 * [Rotate array by K steps](miscellaneous/rotate-array-by-k-steps.md)
 
+## Sort
+
+* [Quick Sort](sort/quick-sort.md)
+
 ## Tree
 
 * [Centre of gravity](tree/centre-of-gravity.md)
