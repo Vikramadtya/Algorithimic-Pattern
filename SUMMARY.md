@@ -42,6 +42,7 @@
 * [GCD of two numbers](numerical-algorithms/gcd-of-two-numbers.md)
 * [Performing Exponentiation](numerical-algorithms/performing-exponentiation.md)
 * [Randomising Data](numerical-algorithms/randomising-data.md)
+* [Prime Numbers](numerical-algorithms/prime-numbers.md)
 
 ## Heap
 
