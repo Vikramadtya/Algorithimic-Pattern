@@ -38,6 +38,10 @@
 * [Java Snippets](java/java-snippets.md)
 * [Data Structures](java/data-structures.md)
 
+## Numerical Algorithms
+
+* [Randomising Data](numerical-algorithms/randomising-data.md)
+
 ## Heap
 
 * [Heap](heap/heap.md)
