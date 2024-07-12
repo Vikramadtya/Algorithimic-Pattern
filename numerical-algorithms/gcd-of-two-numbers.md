@@ -2,7 +2,7 @@
 
 The Greatest Common Divisor (GCD), or Highest Common Factor (HCF), is the largest number that divides two numbers without a remainder.
 
-
+## Calculating Greatest Common Divisors <a href="#head-3-8" id="head-3-8"></a>
 
 A naive approach to this is to iterate from all numbers between 1 to $$\text{min}(m,n)$$ and return the biggest number that divides them
 
@@ -17,6 +17,8 @@ int gcd(int m, int n) {
 	return i;
 }
 ```
+
+
 
 {% hint style="info" %}
 The GCD is always positive irrespective of the sign of the input numbers. If the given number is negative, we will simply ignore its `-` sign using the `abs()` function

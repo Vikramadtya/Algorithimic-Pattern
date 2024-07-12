@@ -7,7 +7,6 @@
 
 ## Miscellaneous&#x20;
 
-* [GCD of two numbers](miscellaneous/gcd-of-two-numbers.md)
 * [Finding the majority element](miscellaneous/finding-the-majority-element.md)
 * [Rotate array by K steps](miscellaneous/rotate-array-by-k-steps.md)
 
@@ -40,6 +39,8 @@
 
 ## Numerical Algorithms
 
+* [GCD of two numbers](numerical-algorithms/gcd-of-two-numbers.md)
+* [Performing Exponentiation](numerical-algorithms/performing-exponentiation.md)
 * [Randomising Data](numerical-algorithms/randomising-data.md)
 
 ## Heap
