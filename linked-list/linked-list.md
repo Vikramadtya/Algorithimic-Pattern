@@ -222,3 +222,6 @@ It's easy to work with a single thread, thinking of it as a simple linked list, 
 \
 
 
+## Circular Linked List
+
+A circular linked list is a linked list in which the last link points back to the first item in the list. They are useful when need to loop through a sequence of items indefinitely.
