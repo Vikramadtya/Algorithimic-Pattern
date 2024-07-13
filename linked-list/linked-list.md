@@ -212,5 +212,13 @@ For example,&#x20;
 * use an MTF strategy to move the most commonly accessed items quickly to the front part of the list then switch to a swapping strategy to adjust the list more slowly.
 * initially use MTF while updating item counts, after performing enough searches to get useful statistics, sort the items by their counts and then switch to a counting strategy.
 
+## Multithreaded Linked Lists <a href="#head-2-68" id="head-2-68"></a>
+
+There's no reason why we can't add other links to a list's nodes to provide other ways to move through the nodes.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+It's easy to work with a single thread, thinking of it as a simple linked list, as visualizing all of the threads at the same time can be messy.\
+\
 
 

@@ -8,7 +8,7 @@
 
 * A sequence of vertices and directed edges in which the last vertex is connected back to the first vertex, forming a closed loop.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * There is a cycle in a graph **only if there is a back edge**
 
