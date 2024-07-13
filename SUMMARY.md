@@ -32,6 +32,7 @@
 
 * [Linked List](linked-list/linked-list.md)
 * [Cycle Detection](linked-list/cycle-detection.md)
+* [Sorting](linked-list/sorting.md)
 
 ## Java
 
