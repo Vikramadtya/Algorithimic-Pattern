@@ -53,3 +53,7 @@
 ***
 
 * [Read Me](read-me.md)
+
+## Arrays
+
+* [Arrays](arrays/arrays.md)
