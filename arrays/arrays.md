@@ -94,3 +94,79 @@ If flagging many entries as unused, the array could eventually fill up with unus
 At some point, may want to compress the array to remove the empty entries.
 {% endhint %}
 
+## Nonzero Lower Bounds <a href="#head-2-76" id="head-2-76"></a>
+
+Programming languages require that all arrays use 0 for a lower bound in every dimension. But sometimes it's convenient to treat an array's dimension as if it had nonzero lower bounds.
+
+
+
+## Higher dimensional array in to a sigle dimension <a href="#head-2-77" id="head-2-77"></a>
+
+Can pack an $$N$$-dimensional into a one-dimensional array in row-major order.
+
+If there are $$N$$rows and $$M$$ columns,  allocate an array with $$N*M$$ entries.
+
+
+
+For an item in a given row and columns to find its index
+
+$$
+index = row 
+× <row size> + column
+$$
+
+* because there are `<row size>` items in each row, that means those rows account for `r × <row size>` items before this one.
+* if the item's column number is $$c$$, then there are $$c$$ items before this item in its row numbered $$0,1,2,3 ...c$$ Those items take up $$c$$ positions in the values array.
+
+## Triangular Arrays <a href="#head-2-77" id="head-2-77"></a>
+
+&#x20;In a _triangular array_, the values on one side of the diagonal have some default value, such as 0, `null`, or blank.&#x20;
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+* In an _upper-triangular array_, the real values lie on or above the diagonal.
+* In a _lower-triangular array_, the nondefault values lie on or below the diagonal.&#x20;
+
+
+
+{% hint style="info" %}
+Some applications can save space by using triangular arrays instead of normal rectangular arrays.
+
+
+
+For example, a _connectivity matrix_ represents the connections between points in some sort of network.
+
+> The array's entry `connected[i, j]` is set to true if there is a flight from airport `i` to airport `j`. If you assume that there is a flight from airport `j` to airport `i` whenever there is a flight from airport `i` to airport `j`, then `connected[i, j] = connected[j, i]`. In that case, there's no need to store both `connected[i, j]` and `connected[j, i]` because they are the same.
+
+it's probably not worth making a $$100*100$$ triangular array because you would save only $$4,960$$ entries, which still isn't all that much memory, and working with the array would be harder than using a normal array. However, a $$10000*10000$$ triangular array would save about $$50$$million entries, which begins to add up to real memory savings, so it may be worth making it into a triangular array.
+{% endhint %}
+
+To build a triangular array simply pack the array's values into a one-dimensional array, skipping the entries that should not be included.&#x20;
+
+To build a triangular array with $$N$$ rows, allocate a one-dimensional array containing $$\frac{N+N^2}{2}$$ items.
+
+To find the index for an entry with row $$r$$ and column $$c$$
+
+$$
+\frac{(r-1)^2+(r-1)}{2}+c
+$$
+
+## Sparse Arrays <a href="#head-2-78" id="head-2-78"></a>
+
+A _sparse array_ lets you save even more space than a triangular array by not representing the missing entries.&#x20;
+
+
+
+One way to implement a sparse array is to make a linked list of linked lists.&#x20;
+
+* The first list holds information about rows.&#x20;
+* Each item in that list points to another linked list holding information about the array's columns for that row.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+* To make it easier to determine when a value is missing from the array, the `ArrayRow` objects are stored in increasing order of `RowNumber`.
+*   &#x20;the `ArrayEntry` objects are stored in increasing order of `ColumnNumber`.
+
+    \
+
+
