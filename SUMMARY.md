@@ -4,6 +4,7 @@
 
 * [Stack](README.md)
 * [Monotonic Stack](<README (1).md>)
+* [Reversing an Array](stack/reversing-an-array.md)
 
 ## Miscellaneous&#x20;
 
