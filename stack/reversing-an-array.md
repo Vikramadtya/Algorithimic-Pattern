@@ -1,9 +1,6 @@
 # Reversing an Array
 
-* Just push each item onto the stack and then pop it back off.&#x20;
-* Because of the stack's LIFO nature, the items come back out in reverse order.
-
-
+Just push each item onto the stack and then pop it back off.  Because of the stack's LIFO nature, the items come back out in reverse order.
 
 ```java
 int[] reverserArray(int[] arr) {

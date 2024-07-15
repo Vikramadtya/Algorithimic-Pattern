@@ -5,6 +5,7 @@
 * [Stack](README.md)
 * [Monotonic Stack](<README (1).md>)
 * [Reversing an Array](stack/reversing-an-array.md)
+* [Tower of Hanoi](stack/tower-of-hanoi.md)
 
 ## Miscellaneous&#x20;
 
