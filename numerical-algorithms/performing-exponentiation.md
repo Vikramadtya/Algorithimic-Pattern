@@ -34,6 +34,10 @@ static long exponentiation(long base, long exp) {
 
 ## Bit-Manipulation Method
 
+The basis for the fast exponentiation algorithm is to build bigger and bigger powers of A and use the binary digits of the exponent to decide which of those should be multiplied into the final result.
+
+
+
 The steps of the algorithm are as follows&#x20;
 
 1. Initialize a result variable to 1, and a base variable to the given base value.    &#x20;
@@ -44,5 +48,20 @@ The steps of the algorithm are as follows&#x20;
 
 &#x20; 3\. Return the result variable modulo the given modulus value.
 
-## &#x20; 
+
+
+One limitation of this algorithm is that values raised to large powers grow extremely large.&#x20;
+
+Reducing each number with the modulus makes each step slightly slower, but can calculate values of practically unlimited size.
+
+
+
+
+
+
+
+
+
+\
+
 
