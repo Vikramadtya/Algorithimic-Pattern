@@ -51,42 +51,11 @@ Since when the queue is empty, `Next` is the same as `Last` and in case of full 
 
 If the queue is full and to add more items, allocate a larger storage array, copy the data into the new array, and then use the new array instead of the old one.
 
-## Specialized Queues <a href="#head-3-61" id="head-3-61"></a>
-
-
-
-### **Priority Queue**
-
-Each item has a priority, and the dequeue method removes the item that has the highest priority. Basically, high-priority items are handled first.\
-\
-
-
-When we implemented a priority queue with an array or a linked list, the efficiency of some operations is $$\text{O}(n)$$
-
-<table><thead><tr><th></th><th>insert</th><th width="146">deleteMin</th><th>remove</th><th>findMin</th></tr></thead><tbody><tr><td> ordered array </td><td> O(n) </td><td> O(1) </td><td> O(n) </td><td> O(1) </td></tr><tr><td> ordered list </td><td> O(n) </td><td> O(1) </td><td> O(1)</td><td> O(1) </td></tr><tr><td> unordered array </td><td> O(1) </td><td> O(n) </td><td> O(1)</td><td> O(n) </td></tr><tr><td> unordered list </td><td> O(1) </td><td> O(n) </td><td> O(1)</td><td> O(n) </td></tr></tbody></table>
-
-
-
-Using a binary heap, the runtime of both the deleteMin and insert operations is $$\text{O}(\log n)$$\
-&#x20;
-
-|              | insert     | deleteMin  | remove     | findMin |
-| ------------ | ---------- | ---------- | ---------- | ------- |
-|  binary heap |  O(log n)  |  O(log n)  |  O(log n)  |  O(1)   |
-
-
-
-### **Deques**
-
-A _deque_ (usually pronounced “deck,") is a queue that allows to add items to and remove items from either end of the queue.
-
-Deques are useful in algorithms where you have partial information about the priority of items. For example, might know that some items are high priority and others are low priority, but you might not necessarily know the exact relative priorities of every item.
 
 
 
 
 
-<mark style="background-color:yellow;">Deques are easy to build with doubly linked lists.</mark>
 
 
 

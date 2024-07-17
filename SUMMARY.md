@@ -1,20 +1,33 @@
 # Table of contents
 
+## Arrays
+
+* [Arrays](README.md)
+
+## Linked List
+
+* [Linked List](linked-list/linked-list.md)
+* [Cycle Detection](linked-list/cycle-detection.md)
+* [Sorting](linked-list/sorting.md)
+
 ## Stack
 
-* [Stack](README.md)
-* [Monotonic Stack](<README (1).md>)
+* [Stack](<README (1).md>)
+* [Monotonic Stack](<README (1) (1).md>)
 * [Reversing an Array](stack/reversing-an-array.md)
 * [Tower of Hanoi](stack/tower-of-hanoi.md)
 
-## Arrays
+## Queue
 
-* [Arrays](arrays/arrays.md)
+* [Queue](queue/queue.md)
+* [Deques](queue/deques.md)
+* [Priority Queue](queue/priority-queue.md)
 
-## Miscellaneous&#x20;
+## Heap
 
-* [Finding the majority element](miscellaneous/finding-the-majority-element.md)
-* [Rotate array by K steps](miscellaneous/rotate-array-by-k-steps.md)
+* [Heap](heap/heap.md)
+* [Binary Heap](heap/binary-heap.md)
+* [Binomial Heap](heap/binomial-heap.md)
 
 ## Sort
 
@@ -34,12 +47,6 @@
 * [Graph](graph/graph.md)
 * [Cycle detection](graph/cycle-detection.md)
 
-## Linked List
-
-* [Linked List](linked-list/linked-list.md)
-* [Cycle Detection](linked-list/cycle-detection.md)
-* [Sorting](linked-list/sorting.md)
-
 ## Java
 
 * [Java Snippets](java/java-snippets.md)
@@ -53,16 +60,11 @@
 * [Randomising Data](numerical-algorithms/randomising-data.md)
 * [Prime Numbers](numerical-algorithms/prime-numbers.md)
 
-## Heap
+## Miscellaneous&#x20;
 
-* [Heap](heap/heap.md)
-* [Binary Heap](heap/binary-heap.md)
-* [Binomial Heap](heap/binomial-heap.md)
+* [Finding the majority element](miscellaneous/finding-the-majority-element.md)
+* [Rotate array by K steps](miscellaneous/rotate-array-by-k-steps.md)
 
 ***
 
 * [Read Me](read-me.md)
-
-## Queue
-
-* [Queue](queue/queue.md)
