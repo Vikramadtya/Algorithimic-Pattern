@@ -56,6 +56,8 @@
 ## Heap
 
 * [Heap](heap/heap.md)
+* [Binary Heap](heap/binary-heap.md)
+* [Binomial Heap](heap/binomial-heap.md)
 
 ***
 

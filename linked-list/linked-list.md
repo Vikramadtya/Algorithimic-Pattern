@@ -216,7 +216,7 @@ For example,&#x20;
 
 There's no reason why we can't add other links to a list's nodes to provide other ways to move through the nodes.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 It's easy to work with a single thread, thinking of it as a simple linked list, as visualizing all of the threads at the same time can be messy.\
 \
