@@ -47,3 +47,9 @@ The minimum element can be found at the root, which is the first element of the 
 We remove the root and replace it with the last element of the heap and then restore the heap property by _percolating down_.&#x20;
 
 The worst-case runtime is O{log n).\
+
+
+## Reference&#x20;
+
+* [Binary Heaps](https://www.andrew.cmu.edu/course/15-121/lectures/Binary%20Heaps/heaps.html)
+* [Binary Heap Implementation](https://runestone.academy/ns/books/published/pythonds/Trees/BinaryHeapImplementation.html)
