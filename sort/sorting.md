@@ -4,7 +4,11 @@ The fastest possible algorithm that uses comparisons to sort $$N$$ items must us
 
 ## ![images](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119575993/files/images/c06-i0012.png) Algorithms <a href="#head-2-88" id="head-2-88"></a>
 
-Sort algorithms such as insertion sort, selection sort & bubble sort are relatively simple but slow.&#x20;
+Sort algorithms such as insertion sort, selection sort & bubble sort are relatively simple but slow.
+
+{% hint style="warning" %}
+Their simplicity sometimes lets them outperform faster but more complicated algorithms for very small arrays.&#x20;
+{% endhint %}
 
 ### ![images](https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781119575993/files/images/c06-i0063.png) Algorithms <a href="#head-2-89" id="head-2-89"></a>
 

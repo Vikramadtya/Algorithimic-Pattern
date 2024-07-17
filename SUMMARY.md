@@ -32,7 +32,13 @@
 ## Sort
 
 * [Sorting](sort/sorting.md)
+* [Insertion Sort](sort/insertion-sort.md)
+* [Selection Sort](sort/selection-sort.md)
+* [Bubble Sort](sort/bubble-sort.md)
 * [Quick Sort](sort/quick-sort.md)
+* [Merge Sort](sort/merge-sort.md)
+* [Counting Sort](sort/counting-sort.md)
+* [Pigeon Hole Sort](sort/pigeon-hole-sort.md)
 
 ## Tree
 
