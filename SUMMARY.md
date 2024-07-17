@@ -31,6 +31,7 @@
 
 ## Sort
 
+* [Sorting](sort/sorting.md)
 * [Quick Sort](sort/quick-sort.md)
 
 ## Tree
