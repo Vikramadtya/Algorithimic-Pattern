@@ -7,6 +7,10 @@
 * [Reversing an Array](stack/reversing-an-array.md)
 * [Tower of Hanoi](stack/tower-of-hanoi.md)
 
+## Arrays
+
+* [Arrays](arrays/arrays.md)
+
 ## Miscellaneous&#x20;
 
 * [Finding the majority element](miscellaneous/finding-the-majority-element.md)
@@ -57,6 +61,6 @@
 
 * [Read Me](read-me.md)
 
-## Arrays
+## Queue
 
-* [Arrays](arrays/arrays.md)
+* [Queue](queue/queue.md)
