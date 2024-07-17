@@ -47,11 +47,6 @@
 * [Graph](graph/graph.md)
 * [Cycle detection](graph/cycle-detection.md)
 
-## Java
-
-* [Java Snippets](java/java-snippets.md)
-* [Data Structures](java/data-structures.md)
-
 ## Numerical Algorithms
 
 * [GCD of two numbers](numerical-algorithms/gcd-of-two-numbers.md)
