@@ -1,8 +1,10 @@
 # Table of contents
 
+* [About](README.md)
+
 ## Arrays
 
-* [Arrays](README.md)
+* [Arrays](arrays/arrays.md)
 
 ## Linked List
 
@@ -12,8 +14,8 @@
 
 ## Stack
 
-* [Stack](<README (1).md>)
-* [Monotonic Stack](<README (1) (1).md>)
+* [Stack](stack/stack.md)
+* [Monotonic Stack](stack/monotonic-stack.md)
 * [Reversing an Array](stack/reversing-an-array.md)
 * [Tower of Hanoi](stack/tower-of-hanoi.md)
 
@@ -62,11 +64,7 @@
 * [Randomising Data](numerical-algorithms/randomising-data.md)
 * [Prime Numbers](numerical-algorithms/prime-numbers.md)
 
-## Miscellaneous&#x20;
+## Miscellaneous
 
 * [Finding the majority element](miscellaneous/finding-the-majority-element.md)
 * [Rotate array by K steps](miscellaneous/rotate-array-by-k-steps.md)
-
-***
-
-* [Read Me](read-me.md)
