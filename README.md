@@ -10,5 +10,5 @@ This collection is designed to be a go-to reference for developers of all levels
 
 * To know more about me checkout my [portfolio](https://www.vikramaditya-singh.in/) :beers:
 * To read my latest piece on a tech topic checkout my blog [blog](https://www.neuralcook.com/) :beers:
-* The question solved as a part of this are tracked :point\_right: [here](https://vickysingh.notion.site/LeetCode-Question-Log-650528c02c6043999a7662b4693a4c56?pvs=4)
+* The question solved as a part of this are tracked :point\_right: [here](https://airtable.com/appd1ErlnOKNxFYlb/shr9duOVejQUlPqsE/tblEQpEg65SCsaz2s)
 * The repo for this book is :point\_right: [here](https://github.com/Vikramadtya/Algorithimic-Pattern).
