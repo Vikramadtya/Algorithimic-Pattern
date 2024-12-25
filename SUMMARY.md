@@ -4,7 +4,7 @@
 
 ## Arrays
 
-* [Arrays](arrays/arrays.md)
+* [Kadane’s Algorithm](arrays/kadanes-algorithm.md)
 
 ## Linked List
 
