@@ -4,7 +4,8 @@
 
 ## Arrays
 
-* [Kadane’s Algorithm](arrays/kadanes-algorithm.md)
+* [Kadane’s Algorithm](arrays/arrays.md)
+* [Boyer Moore majority vote algorithm](arrays/boyer-moore-majority-vote-algorithm.md)
 
 ## Linked List
 

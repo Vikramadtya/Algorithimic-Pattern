@@ -1,20 +1,10 @@
 # Kadane’s Algorithm
 
-## About
-
 An efficient technique used to find the **maximum sum of a contiguous subarray** within a given array of numbers. Its beauty lies in its simplicity and its ability to solve the maximum subarray sum problem in **linear time complexity** $$\text{O}(n)$$
 
 
 
-### **Practice Problems**
-
-<table><thead><tr><th width="578">Name</th><th width="89">Level</th><th data-type="content-ref">Link</th></tr></thead><tbody><tr><td>Maximum Product Subarray</td><td></td><td></td></tr><tr><td>Maximum Sum Increasing Subsequence (MSIS)</td><td></td><td></td></tr><tr><td>Longest Continuous Increasing Subsequence (LCIS)</td><td></td><td></td></tr><tr><td>Max Consecutive ones.</td><td></td><td></td></tr><tr><td>Maximum Circular Subarray Sum</td><td></td><td></td></tr><tr><td>Maximum Sum Rectangle</td><td></td><td></td></tr><tr><td>Largest Sum Contiguous Subarray with at least K numbers</td><td></td><td></td></tr><tr><td>Flip Bits</td><td></td><td></td></tr></tbody></table>
-
-
-
 ## Algorithm
-
-### Insight
 
 The algorithm works by maintaining two variables:
 
@@ -42,17 +32,16 @@ The algorithm works by maintaining two variables:
 
 
 
-### **Time Complexity**
+## Code&#x20;
 
-Kadane’s algorithm has a time complexity of **O(n),** where n is the number of elements in the input array.&#x20;
+### **Complexity**
 
-### **Space Complexity**
+**Time complexity:** O(n), we make only one iterations through the array.\
+**Space complexity:** O(1), only two variables.
 
-Kadane’s algorithm has a space complexity of **O(1)**. The reason for this is that the algorithm does not use any additional data structures whose size depends on the size of the input array.
+## **Practice Problems**
 
-## Code Example
-
-
+<table><thead><tr><th width="578">Name</th><th width="89">Level</th><th data-type="content-ref">Link</th></tr></thead><tbody><tr><td>Maximum Product Subarray</td><td></td><td></td></tr><tr><td>Maximum Sum Increasing Subsequence (MSIS)</td><td></td><td></td></tr><tr><td>Longest Continuous Increasing Subsequence (LCIS)</td><td></td><td></td></tr><tr><td>Max Consecutive ones.</td><td></td><td></td></tr><tr><td>Maximum Circular Subarray Sum</td><td></td><td></td></tr><tr><td>Maximum Sum Rectangle</td><td></td><td></td></tr><tr><td>Largest Sum Contiguous Subarray with at least K numbers</td><td></td><td></td></tr><tr><td>Flip Bits</td><td></td><td></td></tr></tbody></table>
 
 
 
