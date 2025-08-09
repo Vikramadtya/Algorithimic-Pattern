@@ -69,3 +69,7 @@
 
 * [Finding the majority element](miscellaneous/finding-the-majority-element.md)
 * [Rotate array by K steps](miscellaneous/rotate-array-by-k-steps.md)
+
+## Search
+
+* [Binary Search](search/binary-search.md)
