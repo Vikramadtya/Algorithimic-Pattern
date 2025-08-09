@@ -24,6 +24,8 @@ public int search(int[] nums, int target) {
 
 ## **Lower Bound** (First element > target)
 
+The lower bound for a target value in a sorted array is the index of the first element that is greater than or equal to the target value. If the target value is present multiple times, the lower bound identifies the first occurrence. If the target value is not present, it indicates the position where the target value could be inserted while maintaining the sorted order.
+
 ```java
 public int lowerBound(int[] nums, int target) {
     int left = 0, right = nums.length;
@@ -37,6 +39,8 @@ public int lowerBound(int[] nums, int target) {
 ```
 
 ## **Upper Bound** (First element ≥ target)
+
+The upper bound for a target value in a sorted array is the index of the first element that is strictly greater than the target value. If the target value is present multiple times, the upper bound identifies the position after the last occurrence of the target value. If the target value is not present, it indicates the same insertion point as the lower bound.
 
 ```java
 public int upperBound(int[] nums, int target) {
@@ -53,6 +57,8 @@ public int upperBound(int[] nums, int target) {
 
 ## **Binary Search on Answer** (Predicate-based)
 
+Instead of searching an array, search the **answer space**
+
 ```java
 public int binarySearchAnswer(int low, int high) {
     while (low < high) {
@@ -66,4 +72,10 @@ public int binarySearchAnswer(int low, int high) {
     return low;
 }
 ```
+
+
+
+{% hint style="info" %}
+We can use _lower_ & _upper_ bound to find the occurrence count efficiently.
+{% endhint %}
 
