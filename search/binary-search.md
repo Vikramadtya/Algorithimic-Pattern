@@ -22,7 +22,7 @@ public int search(int[] nums, int target) {
 }
 ```
 
-## **Lower Bound** (First element >= target)
+## **Lower Bound** (First element > target)
 
 ```java
 public int lowerBound(int[] nums, int target) {
@@ -36,7 +36,7 @@ public int lowerBound(int[] nums, int target) {
 }
 ```
 
-## **Upper Bound** (First element > target)
+## **Upper Bound** (First element ≥ target)
 
 ```java
 public int upperBound(int[] nums, int target) {
