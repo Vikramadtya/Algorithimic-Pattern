@@ -41,9 +41,9 @@ To find the GCD of two numbers using recursion, we will be using the principle $
 
 ```java
 int gcd(int a , int b) {
-	if(a == 0) return b;
+  if(a == 0) return b;
   if(b == 0) return a;
-	return  a > b ? gcd(a-b,b) : gcd(a,b-a);
+  return  a > b ? gcd(a-b,b) : gcd(a,b-a);
 }
 ```
 
